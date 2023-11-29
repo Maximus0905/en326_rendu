@@ -94,7 +94,7 @@ TemperatureSensor sensor(P1_I2C_SDA, P1_I2C_SCL, 0x48);
 /**
  * Entry point for application
  */
-// DigitalOut _pin(LORA_ANTSW_PWR, 1);
+DigitalOut _pin(LORA_ANTSW_PWR, 1);
 
 int main(void)
 {
