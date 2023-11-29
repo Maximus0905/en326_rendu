@@ -8,3 +8,6 @@ mbed config root .
 mbed target ZEST_CORE_FMLR-72
 mbed toolchain GCC_ARM
 mbed compile
+sixtron_flash.exe
+mbed sterm --port COM11 --baudrate 115200
+
